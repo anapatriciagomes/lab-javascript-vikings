@@ -72,8 +72,8 @@ class War {
 
     if (saxonRandom.health <= 0) {
       this.saxonArmy.splice(this.saxonArmy.indexOf(saxonRandom), 1);
-      return result;
     }
+    return result;
   }
 
   saxonAttack() {
