@@ -74,7 +74,7 @@ class War {
       this.saxonArmy.splice(this.saxonArmy.indexOf(saxonRandom), 1);
       return `A Saxon has died in combat`;
     } else {
-      return `A Saxon has received ${damage} points of damage`;
+      return `A Saxon has received ${vikingRandom.strength} points of damage`;
     }
   }
 
@@ -90,7 +90,7 @@ class War {
       this.vikingArmy.splice(this.vikingArmy.indexOf(vikingRandom), 1);
       return `${vikingRandom.name} has died in act of combat`;
     } else {
-      return `${vikingRandom.name} has received ${damage} points of damage`;
+      return `${vikingRandom.name} has received ${saxonRandom.strength} points of damage`;
     }
   }
 
